@@ -18,24 +18,13 @@
 
 <br/>
 
-## 🎯 주요 기능
-<!-- ![]() -->
-|소셜로그인|무한스크롤|유저페이지|
-|------|---|---|
-|시연1|시연2|시연3|
-<br/>
-
-|채팅목록|1:1 채팅방|만족도 평가|
-|------|---|---|
-|시연1|시연2|시연3|
-<br/>
-
-
 ## 📢 개발 포인트
 <!-- ![]() -->
-- s
-- s
-- s 
+- 사용자 간에 소통이 가능하도록 채팅 기능을 구현합니다.
+- 사용자 간에 평가가 가능하도록 평가 기능을 구현합니다.
+- 간단한 이용을 위해 소셜 로그인을 구현합니다.
+
+<br/>
 
 ## 🛠️ 기술 스택
 <!-- ![]() -->
@@ -55,52 +44,6 @@
 <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=Amazon%20AWS&logoColor=white"/></a> <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white"/></a> <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white"/></a> <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=Amazon%20RDS&logoColor=white"/></a> <img src="https://img.shields.io/badge/restful%20API-1287B1?style=for-the-badge&logo=restful%20API&logoColor=white"/></a>
 <br/>
 
-### 📝 기술스택 및 라이브러리 사용 이유
-<!-- ![]() -->
-<details>
-<summary>WireFra</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<details>
-<summary>Wirra</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<details>
-<summary>Wireame</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<details>
-<summary>WireFre</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<details>
-<summary>Wireame</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<details>
-<summary>WireFrame</summary>
-<div markdown="1">
-
-![](0)
-</div>
-</details>
-<br/>
-
 
 #### ⚙️ Front-End
 |스택 및 라이브러리|Ver|사용이유|
@@ -116,8 +59,6 @@
 |<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=PWA&logoColor=white">|<img src="https://img.shields.io/badge/100.0.0.0-E8E8E8?style=flat-square&logo=Vitess&logoColor=black"/></a>|---|
 |<img src="https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=black"></a> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white">|<img src="https://img.shields.io/badge/10.1.0-E8E8E8?style=flat-square&logo=Vitess&logoColor=black"/></a> <img src="https://img.shields.io/badge/vercel%20CLI-E8E8E8?style=flat-square&logo=Vitess&logoColor=black"/></a>|---|
 |<img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white">|<img src="https://img.shields.io/badge/1.22.19-E8E8E8?style=flat-square&logo=Vitess&logoColor=black"/></a>|---|
-
-<br/>
 
 #### ⚙️ Back-End
 |스택 및 라이브러리|Ver|사용이유|
@@ -142,13 +83,9 @@
 <br/>
 - Solve : 댓글을 통해서 이용자간에 소통할 경우, 개인의 신상과 관련된 정보들이 유출될 수 있다는 점이 우려되었음. 지역을 기반으로 일이 성사되기 때문에, 플랫폼 내에서 유저의 개인정보들이 악용될 수 없도록 보안을 위한 다른 방법을 적용해야 한다고 판단했고, 게시자와 지원자 상호간에 소통할 수 있는 별도의 공간을 마련해 줄 수 있는 채팅기능을 웹소켓을 통해 구현하기로 함. 클라이언트와 서버간의 통신 효율을 높여줄 수 있는 stomp를 이용한 채팅 기능 구현하고, 유저별 채팅 목록을 보여줌.
 
-#### 🚀 03) 트러블슈팅 3
-- Case :
-- Solve :
 
-#### 🚀 04) 트러블슈팅 4
-- Case :
-- Solve :
+<br/>
+<br/>
 
 ## 🗓️ 프로젝트 기간
 <!-- ![]() -->
